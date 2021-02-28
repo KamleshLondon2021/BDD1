@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="41.829">
+<testcase classname="ResultPageFunctionalities" name="Click on  5 - 10 pounds price rage" time="40.068">
+<system-out><![CDATA[Given User is on the home page of the argos website.........................passed
+When User types nike in the search box......................................passed
+And User clicks on search button............................................passed
+Then User should be able to see all the nike products.......................passed
+Given User is on the result page of the argos website.......................passed
+When Users clicks on  five pound to ten pound price range check box.........passed
+Then USer should be able to see all the items within that price rage........passed
+]]></system-out>
+</testcase>
+</testsuite>

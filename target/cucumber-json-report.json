@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the home page of the argos website",
+            "match": {
+              "location": "BDD1.StepDefinitions.IndividualProductSearchSteps.user_is_on_the_home_page_of_the_argos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types nike in the search box",
+            "match": {
+              "location": "BDD1.StepDefinitions.IndividualProductSearchSteps.user_types_nike_in_the_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14419000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "BDD1.StepDefinitions.IndividualProductSearchSteps.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to see all the nike products",
+            "match": {
+              "location": "BDD1.StepDefinitions.IndividualProductSearchSteps.user_should_be_able_to_see_all_the_nike_products()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-28T19:13:49.784Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21020000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD1.BaseClassPackage.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Click on  5 - 10 pounds price rage",
+        "description": "",
+        "id": "resultpagefunctionalities;click-on--5---10-pounds-price-rage",
+        "after": [
+          {
+            "result": {
+              "duration": 2353000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD1.BaseClassPackage.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on the result page of the argos website",
+            "match": {
+              "location": "BDD1.StepDefinitions.ResultPageStepsDefinition.PriceRangeCheckBoxSteps.user_is_on_the_result_page_of_the_argos_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 542000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Users clicks on  five pound to ten pound price range check box",
+            "match": {
+              "location": "BDD1.StepDefinitions.ResultPageStepsDefinition.PriceRangeCheckBoxSteps.usersClicksOnFivePoundToTenPoundPriceRangeCheckBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "USer should be able to see all the items within that price rage",
+            "match": {
+              "location": "BDD1.StepDefinitions.ResultPageStepsDefinition.PriceRangeCheckBoxSteps.u_ser_should_be_able_to_see_all_the_items_within_that_price_rage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ResultPageFunctionalities",
+    "description": "",
+    "id": "resultpagefunctionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resouces/ResultPage.feature",
+    "tags": []
+  }
+]

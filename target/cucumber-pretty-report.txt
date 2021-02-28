@@ -1,0 +1,9 @@
+
+Scenario: Click on  5 - 10 pounds price rage                           [90m# src/test/Resouces/ResultPage.feature:10[0m
+  [32mGiven [0m[32mUser is on the home page of the argos website[0m                  [90m# BDD1.StepDefinitions.IndividualProductSearchSteps.user_is_on_the_home_page_of_the_argos_website()[0m
+  [32mWhen [0m[32mUser types nike in the search box[0m                               [90m# BDD1.StepDefinitions.IndividualProductSearchSteps.user_types_nike_in_the_search_box()[0m
+  [32mAnd [0m[32mUser clicks on search button[0m                                     [90m# BDD1.StepDefinitions.IndividualProductSearchSteps.user_clicks_on_search_button()[0m
+  [32mThen [0m[32mUser should be able to see all the nike products[0m                [90m# BDD1.StepDefinitions.IndividualProductSearchSteps.user_should_be_able_to_see_all_the_nike_products()[0m
+  [32mGiven [0m[32mUser is on the result page of the argos website[0m                [90m# BDD1.StepDefinitions.ResultPageStepsDefinition.PriceRangeCheckBoxSteps.user_is_on_the_result_page_of_the_argos_website()[0m
+  [32mWhen [0m[32mUsers clicks on  five pound to ten pound price range check box[0m  [90m# BDD1.StepDefinitions.ResultPageStepsDefinition.PriceRangeCheckBoxSteps.usersClicksOnFivePoundToTenPoundPriceRangeCheckBox()[0m
+  [32mThen [0m[32mUSer should be able to see all the items within that price rage[0m [90m# BDD1.StepDefinitions.ResultPageStepsDefinition.PriceRangeCheckBoxSteps.u_ser_should_be_able_to_see_all_the_items_within_that_price_rage()[0m
